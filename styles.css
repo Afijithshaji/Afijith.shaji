@@ -80,17 +80,17 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 20px; /* Increased gap between badges */
     margin-top: 20px;
 }
 
 .badge {
     display: inline-block;
-    background-color: #0779e4;
-    color: #fff;
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-size: 1em;
+    background-color: #0779e4; /* Blue color */
+    color: #fff; /* White text color */
+    padding: 15px 20px; /* Increased padding for bigger badges */
+    border-radius: 10px; /* Increased border radius */
+    font-size: 1.2em; /* Increased font size */
     transition: transform 0.2s;
 }
 
